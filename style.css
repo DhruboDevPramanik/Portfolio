@@ -1090,3 +1090,14 @@ body {
 
 
 
+
+
+.resume-institute a {
+  text-decoration: none;
+  color: inherit; /* keeps the text color same as parent */
+}
+
+.resume-institute a:hover {
+  color: #2bbfc0; /* optional: change color on hover */
+  text-decoration: none;
+}

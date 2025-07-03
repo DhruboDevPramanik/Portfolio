@@ -1101,3 +1101,162 @@ body {
   color: #2bbfc0; /* optional: change color on hover */
   text-decoration: none;
 }
+
+
+
+
+
+.swiper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  width: 100% !important;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.review-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review-name {
+  margin: 15px 0 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.review-title {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.review-desc {
+  max-width: 500px;
+  font-style: italic;
+  color: #444;
+  margin: 15px auto;
+}
+
+
+
+.contact-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-title span {
+  color: #00bcd4;
+}
+
+.contact-subtitle {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.contact-info-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-info-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.contact-info-item h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+}
+
+.contact-info-item p {
+  color: #444;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  font-style: normal;
+  text-transform: capitalize;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+  font-style: normal;
+}
+
+.btn-submit {
+  padding: 12px 25px;
+  background: #00bcd4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #000;
+}
